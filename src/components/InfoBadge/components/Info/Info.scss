@@ -20,10 +20,15 @@
   }
   &Meta {
     margin-left: 24px;
-    h1,
     h4,
     p {
       margin: 0;
+    }
+    p {
+      width: 250px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
   }
 }

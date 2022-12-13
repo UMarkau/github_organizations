@@ -12,7 +12,7 @@
   &.open {
     border: 2px solid #2f80ed;
     background-color: white;
-    max-height: 100vh;
+    max-height: unset;
   }
   &ArrowIcon {
     width: 20px;
