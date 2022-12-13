@@ -1,0 +1,29 @@
+.Info {
+  &Content {
+    display: flex;
+    &.Member {
+      margin-top: 20px;
+      .InfoImage {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+      }
+      .InfoMeta {
+        margin-left: 16px;
+      }
+    }
+  }
+  &Image {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+  }
+  &Meta {
+    margin-left: 24px;
+    h1,
+    h4,
+    p {
+      margin: 0;
+    }
+  }
+}

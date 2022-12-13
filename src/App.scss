@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  width: 100vw;
+  background: linear-gradient(110.22deg, #ffe4e8 2.28%, #ffdeda 100%);
+  &Content {
+    width: 974px;
+    min-height: 623px;
+    background-color: white;
+    padding: 59px 79px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    &Badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+  }
+}
