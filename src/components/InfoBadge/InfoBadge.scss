@@ -8,6 +8,7 @@
   overflow: hidden;
   padding: 24px;
   transition: max-height 0.5s;
+  box-sizing: border-box;
   &.open {
     border: 2px solid #2f80ed;
     background-color: white;
@@ -24,7 +25,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-top: 44px;
+      margin-top: auto;
     }
   }
 }
